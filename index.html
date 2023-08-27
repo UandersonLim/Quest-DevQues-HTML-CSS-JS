@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quest Html-CSS-Javascript</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./src/CSS/reset.css">
+    <link rel="stylesheet" href="./src/CSS/validation.css">
+    <link rel="stylesheet" href="./src/CSS/style.css">
+</head>
+
+<body>
+    <main>
+        <div class="infor">
+            <h1>FICOU COM DÚVIDA? NOS MANDE UMA MENSAGEM!</h1>
+
+            <p>caso tenha ficado com qualquer dúvida basta nos mandar uma mensagem e entraremos em contato em menos de
+                24h.</p>
+        </div>
+        <form>
+            <div class="cadastro">
+                <div class="preenchimento-de-formulario">
+                    <input class="campo" type="text" placeholder="Nome completo *" maxlength="100" name="nome" required>
+                    <small>campo obrigatório</small>
+                </div>
+                <div class="preenchimento-de-formulario">
+                    <input class="campo" type="email" placeholder="Email *" name="email" required>
+                    <small>campo obrigatório</small>
+                </div>
+                <div class="preenchimento-de-formulario">
+                    <input class="campo" type="number" placeholder="Telefone *" name="number" required>
+                    <small>campo obrigatório</small>
+                </div>
+                <div class="preenchimento-de-formulario">
+                    <textarea type="text" id="textarea" class="mensagem campo" placeholder="Mensagem *"
+                        required></textarea>
+                    <small class="textarea">campo obrigatório</small>
+                </div>
+                <p>*campos obrigatórios</p>
+                <button onclick="validationform()" class="enviar">
+                    Enviar
+                </button>
+
+            </div>
+        </form>
+    </main>
+    <script type="text/Javascript" src="validation.js"></script>
+</body>
+
+</html>

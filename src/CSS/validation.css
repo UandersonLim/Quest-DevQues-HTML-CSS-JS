@@ -1,0 +1,27 @@
+form .preenchimento-de-formulario {
+    line-height: 9px;
+    color: rgba(245, 46, 46, 1);
+    font-size: 8px;
+    font-weight: 400;
+}
+
+
+form small{
+    position: absolute;
+    visibility: hidden;
+}
+
+.border.campo{
+    border: 1px solid rgb(245, 16, 16);
+}
+
+.border-green.campo {
+    border: 1px solid rgba(0, 194, 43, 1);
+}
+    
+@media(max-width: 740px){
+    main{
+        flex-wrap: wrap-reverse;
+        
+    }
+}

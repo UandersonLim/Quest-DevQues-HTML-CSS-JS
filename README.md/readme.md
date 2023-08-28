@@ -22,6 +22,7 @@
 
 <br>
 
-<p align="center">
-<a href="https://uandersonlim.github.io/Quest-DevQues-HTML-CSS-JS/" style="border: 1px solid black; padding: 6px; background-color: #F55F8A; color: white;">Navegue até lá</a>
-</p>
+
+<a href="https://uandersonlim.github.io/Quest-DevQues-HTML-CSS-JS/">
+<p align="center"><img src="./img/img-button.png"></p>
+</a>

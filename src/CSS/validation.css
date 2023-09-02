@@ -19,9 +19,16 @@ form small{
     border: 1px solid rgba(0, 194, 43, 1);
 }
     
-@media(max-width: 740px){
+@media(max-width: 960px){
     main{
-        flex-wrap: wrap-reverse;
-        
+        flex-direction: column;
+    }
+
+    main .infor {
+        margin-top: 100px;
+    }
+
+    form {
+        margin-bottom: 100px;
     }
 }

@@ -18,7 +18,7 @@
 <img src="./img/print-validation.png">
 <img src="./img/print-validation-infor.png">
 <img src="./img/print-validation-total.png">
-<img src="./img/print-responsive-mobile.png">
+<img src="./img/responsive-form.png">
 
 <br>
 
